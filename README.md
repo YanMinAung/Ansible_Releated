@@ -1,4 +1,4 @@
-# ansible-image-build
+# Ansible image build with collection
 - Create ansible virtual env and install ansible, ansible-builder
 ```
 $ virtualenv ansible_ee
