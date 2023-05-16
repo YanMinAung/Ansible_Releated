@@ -10,7 +10,7 @@ $ pip install ansible-builder
 ```
 $ cd general-ee
 $ vim requirements.yml		#Add ansible-collection if you need more collection 
-$ ansible-builder build
+$ ansible-builder build -t ansible-ee:latest
 $ podman images				#Check builded image
 $ podman run -it localhost/ansible-execution-env /bin/bash 	#To check xml module in image ( #ansible-doc xml )
 $ podman tag {IMAGE ID} general-ee:latest		#Change name
