@@ -18,6 +18,7 @@ $ podman save localhost/general-ee -o general-ee.tar		#Save image
 ```
 - Upload image to OAM server and load image
 ```
+$ su -l awx -s /bin/bash                    #To change user
 $ podman load -i /tmp/general-ee.tar		#Load image
 ```
 - And add image to OAM Execution Environments
